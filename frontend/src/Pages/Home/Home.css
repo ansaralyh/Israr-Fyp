@@ -1,0 +1,101 @@
+.home-section {
+    /* max-width: 1440px; */
+    padding: 0px 130px;
+    background-color: #0B1334;
+    /* overflow: hidden; */
+}
+
+.community-catogory {
+    width: 789px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 25px;
+
+}
+
+.catogory-para {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+
+}
+
+/* ------------------------Handmade-Arts------------------------- */
+.handmade-arts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.handmade-heading {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.handmade-para {
+    width: 943px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.35);
+}
+.handmade-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
+/* ------------------------Historical-places------------------------ */
+.historical-places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.historical-heading {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.historical-para {
+    width: 943px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.35);
+}
+.historical-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
