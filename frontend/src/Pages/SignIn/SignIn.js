@@ -71,28 +71,28 @@ const SignIn = () => {
                         <div className="input-fields">
 
                             <div className="input-name">
-                                <input className='name' type="text" placeholder='Name' name='name' id='name' value={formik.values.name} onChange={formik.handleChange}/>
+                                <input  maxLength={15} className='name' type="text" placeholder='Name' name='name' id='name' value={formik.values.name} onChange={formik.handleChange}/>
                                 <div className="user-icon">
                                     <img src={usericon} alt="" />
                                 </div>
                             </div>
 
                             <div className="input-name">
-                                <input className='name' type="text" placeholder='Username' name='userName' id='userName' value={formik.values.userName} onChange={formik.handleChange}/>
+                                <input className='name' maxLength={20} type="text" placeholder='Username' name='userName' id='userName' value={formik.values.userName} onChange={formik.handleChange}/>
                                 <div className="username-icon">
                                     <img src={usernameicon} alt="" />
                                 </div>
                             </div>
 
                             <div className="input-name">
-                                <input className='name' type="Email" placeholder='Email' name='email' id='email' value={formik.values.email} onChange={formik.handleChange}/>
+                                <input className='name' maxLength={30} type="Email" placeholder='Email' name='email' id='email' value={formik.values.email} onChange={formik.handleChange}/>
                                 <div className="email-icon">
                                     <img src={emailicon} alt="" />
                                 </div>
                             </div>
 
                             <div className="input-name">
-                                <input className='name' type="password" placeholder='Password' name='password' id='password' value={formik.values.password} onChange={formik.handleChange}/>
+                                <input className='name' maxLength={30} type="password" placeholder='Password' name='password' id='password' value={formik.values.password} onChange={formik.handleChange}/>
                                 <div className="password-icon">
                                     <img src={passwordicon} alt="" />
                                 </div>

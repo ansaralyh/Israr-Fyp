@@ -66,14 +66,14 @@ const SignUp = ({ isLoggedIn, setIsloggedIn }) => {
                         <div className="input-fields">
 
                             <div className="input-name">
-                                <input className='name' type="email" placeholder='Email' name='email' id='email' value={formik.values.email} onChange={formik.handleChange} />
+                                <input className='name' minLength={3} maxLength={30} type="email" placeholder='Email' name='email' id='email' value={formik.values.email} onChange={formik.handleChange} />
                                 <div className="username1-icon">
                                     <img src={usernameicon} alt="" />
                                 </div>
                             </div>
 
                             <div className="input-name">
-                                <input className='name' type="password" placeholder='Password' name='password' id='password' value={formik.values.password} onChange={formik.handleChange}/>
+                                <input className='name' minLength={3} maxLength={30} type="password" placeholder='Password' name='password' id='password' value={formik.values.password} onChange={formik.handleChange}/>
                                 <div className="password1-icon">
                                     <img src={passwordicon} alt="" />
                                 </div>
