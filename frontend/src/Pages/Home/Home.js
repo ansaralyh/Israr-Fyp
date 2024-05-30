@@ -71,7 +71,7 @@ const Home = ({ isLoggedIn, setIsloggedIn }) => {
 
                             }
                             
-                            <img className='demo-btn' src={demo} alt="" />
+                            {/* <img className='demo-btn' src={demo} alt="" /> */}
                         </div>
 
                     </section>

@@ -128,6 +128,7 @@ userMongooseSchema.statics.forgotPasswordRequest = async function (data) {
             message: `Your Password reset token for GBArts Bazaar is : ${token}`
         }
 
+        console.log(mailOptions)
         await sendEmail(mailOptions)
         exists.passWordResetToken = token
         exists.passTokenExpire = new Date(Date.now() + 24 * 60 * 60 * 1000);

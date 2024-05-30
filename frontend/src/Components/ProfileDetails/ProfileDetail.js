@@ -52,7 +52,7 @@ const ProfileDetail = ({ user,arts,proheroimg, profilepicture,loading, profilede
                 <img src={location} alt="" />
                 <p>{user?.address}</p>
               </div>
-              <Link to={'/editprofiledetail'}><button className='profile-edit-btn'>Edit Your Profile</button></Link>
+              <Link to={'/editprofiledetail'}><button className='profile-edit-btn'> Profile</button></Link>
               
             </div>
 

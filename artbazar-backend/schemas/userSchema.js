@@ -1,11 +1,11 @@
 const Joi = require('joi')
 exports.userSchema = Joi.object({
-    name: Joi.string().min(3).max(30).required().messages({
+    name: Joi.string().min(3).max(15).required().messages({
         'any.required':'Please Enter Your Name',
         'string.min':'Name must me greater then 3 characters',
         'string.max':'Name must be smaller then 30 characters'
     }),
-    userName: Joi.string().regex(/^[a-z]+$/).lowercase().disallow(Joi.string().regex(/\s/)).min(3).max(30).required().messages({
+    userName: Joi.string().regex(/^[a-z]+$/).lowercase().disallow(Joi.string().regex(/\s/)).min(3).max(15).required().messages({
         'string.pattern.base':'Username must contain only lowercase alphabetical characters',
         'any.required':'username is required',
         'string.min':'username must me greater then 3 characters',
