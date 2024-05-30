@@ -60,7 +60,7 @@ const ProfileDetail = ({ user,arts,proheroimg, profilepicture,loading, profilede
           <div className="pro-right">
             <div className="pro-right-top">
               <button className="my-art-btn">My art work</button>
-              <p className='pro-right-top-about'>About</p>
+              {/* <p className='pro-right-top-about'>About</p> */}
 
               <Link to={'/upload'}><p className='pro-right-top-share'>Share your art work</p></Link>
               
