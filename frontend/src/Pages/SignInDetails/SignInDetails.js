@@ -8,15 +8,15 @@ const SignInDetails = () => {
                 <div className="signin-details-next">
                     <div className="signin-details-input">
                         <p >Contact Number:</p>
-                        <input type="number" placeholder='+92' />
+                        <input type="number" maxLength={13} placeholder='+92' />
                     </div>
                     <div className="signin-details-input">
                         <p >Mailing Address</p>
-                        <input type="email" placeholder='Enter your E-mail' />
+                        <input type="email" maxLength={30} placeholder='Enter your E-mail' />
                     </div>
                     <div className="signin-details-input">
                         <p >Address</p>
-                        <input type="text" placeholder='Enter your Address' />
+                        <input type="text" maxLength={30} placeholder='Enter your Address' />
                     </div>
                     <button className='submit-btn' type='submit'>Sign In</button>
 
